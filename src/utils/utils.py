@@ -1,3 +1,10 @@
+# Questo modulo definisce l'app Kivy per calcolare la somma dei numeri da 1 a un numero inserito.
+# L'interfaccia grafica include un campo di input, un bottone per avviare il calcolo,
+# una label per mostrare il risultato. 
+# La funzione di calcolo della somma è gestita esternamente dal modulo `somma` importato, 
+# che restituisce la somma o un errore se l'input non è valido.
+
+# Importazione delle librerie Kivy e dei suoi widget necessari per creare l'interfaccia grafica.
 from kivy.app import App
 from kivy.uix.gridlayout import GridLayout
 from kivy.core.window import Window
