@@ -16,7 +16,7 @@ class SommaApp(App):
         self.window.pos_hint = {"center_x": 0.5, "center_y": 0.4}
         Window.size = (360, 640)
         
-        self.window.add_widget(Image(source="src/utils/image/soldi.png"))  # Percorso corretto
+        self.window.add_widget(Image(source="src/utils/images/soldi.png"))  # Percorso corretto
         
         self.input_testo = TextInput(
             size_hint=(1, 0.2),
